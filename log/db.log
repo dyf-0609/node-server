@@ -1,0 +1,44 @@
+2020-10-18T13:43:01.369+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-10-18T13:43:01.375+0800 I  CONTROL  [initandlisten] MongoDB starting : pid=4952 port=27017 dbpath=D:\三阶段node\vue项目\server\db 64-bit host=DESKTOP-MGP3FVD
+2020-10-18T13:43:01.375+0800 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-10-18T13:43:01.375+0800 I  CONTROL  [initandlisten] db version v4.2.2
+2020-10-18T13:43:01.375+0800 I  CONTROL  [initandlisten] git version: a0bbbff6ada159e19298d37946ac8dc4b497eadf
+2020-10-18T13:43:01.376+0800 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-10-18T13:43:01.376+0800 I  CONTROL  [initandlisten] modules: none
+2020-10-18T13:43:01.377+0800 I  CONTROL  [initandlisten] build environment:
+2020-10-18T13:43:01.377+0800 I  CONTROL  [initandlisten]     distmod: 2012plus
+2020-10-18T13:43:01.377+0800 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-10-18T13:43:01.377+0800 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-10-18T13:43:01.377+0800 I  CONTROL  [initandlisten] options: { storage: { dbPath: "D:\三阶段node\vue项目\server\db" }, systemLog: { destination: "file", path: "D:\三阶段node\vue项目\server\log\db.log" } }
+2020-10-18T13:43:01.381+0800 I  STORAGE  [initandlisten] Detected data files in D:\三阶段node\vue项目\server\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-10-18T13:43:01.382+0800 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3544M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-10-18T13:43:01.502+0800 I  STORAGE  [initandlisten] WiredTiger message [1602999781:501961][4952:140714501299872], txn-recover: Recovering log 7 through 8
+2020-10-18T13:43:01.576+0800 I  STORAGE  [initandlisten] WiredTiger message [1602999781:575920][4952:140714501299872], txn-recover: Recovering log 8 through 8
+2020-10-18T13:43:01.685+0800 I  STORAGE  [initandlisten] WiredTiger message [1602999781:684902][4952:140714501299872], txn-recover: Main recovery loop: starting at 7/4608 to 8/256
+2020-10-18T13:43:01.816+0800 I  STORAGE  [initandlisten] WiredTiger message [1602999781:815830][4952:140714501299872], txn-recover: Recovering log 7 through 8
+2020-10-18T13:43:01.980+0800 I  STORAGE  [initandlisten] WiredTiger message [1602999781:979788][4952:140714501299872], txn-recover: Recovering log 8 through 8
+2020-10-18T13:43:02.049+0800 I  STORAGE  [initandlisten] WiredTiger message [1602999782:49691][4952:140714501299872], txn-recover: Set global recovery timestamp: (0,0)
+2020-10-18T13:43:02.281+0800 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-10-18T13:43:02.289+0800 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] 
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] 
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-10-18T13:43:02.365+0800 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-10-18T13:43:02.366+0800 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-10-18T13:43:02.366+0800 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-10-18T13:43:02.366+0800 I  CONTROL  [initandlisten] 
+2020-10-18T13:43:02.371+0800 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-10-18T13:43:02.375+0800 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-10-18T13:43:02.375+0800 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-10-18T13:43:02.376+0800 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-10-18T13:43:02.380+0800 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-10-18T13:43:02.864+0800 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/三阶段node/vue项目/server/db/diagnostic.data'
+2020-10-18T13:43:02.866+0800 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-10-18T13:43:02.866+0800 I  NETWORK  [initandlisten] Listening on 127.0.0.1
+2020-10-18T13:43:02.866+0800 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-10-18T13:43:02.866+0800 I  NETWORK  [initandlisten] waiting for connections on port 27017
+2020-10-18T13:43:03.002+0800 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>

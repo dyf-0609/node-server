@@ -33,5 +33,6 @@ app.use(require('express-session')({
 app.use(express.urlencoded());
 app.use(express.json());
 app.use('/api/user', require('./routers/userRouter'));
+app.use('/api/course', require('./routers/courseRouter'))
 
 module.exports = app;
